@@ -2,13 +2,13 @@
 
 <h3>Tech Used</h3>
 
-PHP 8.2.5
-Laravel v10.13.5
-Filament v2.x
-Livewire v2.0+
-For images
-Spatie Media Library by Filament
-For roles and permissions
+PHP 8.2.5<br>
+Laravel v10.13.5<br>
+Filament v2.x<br>
+Livewire v2.0+<br>
+For images<br>
+Spatie Media Library by Filament<br>
+For roles and permissions<br>
 Spatie's permission package
 
 
