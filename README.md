@@ -1,8 +1,8 @@
-<h1>Laravel Filament With Livewire<h1>
+<h2>Laravel Filament With Livewire<h2>
 
 
 
-<h2>Tech Used</h2>
+<h3>Tech Used</h3>
 
 PHP 8.2.5
 Laravel v10.13.5
@@ -14,10 +14,16 @@ For roles and permissions
 Spatie's permission package
 
 
-<h2>References</h2>
+<h3>References</h3>
 
-Official doc - https://filamentphp.com/docs/2.x/admin
+Official doc- https://filamentphp.com/docs/2.x/admin
 YouTube
-Blogs app - <a href="https://youtu.be/yQFA-0RbjO0" target="_blank">Laravel Filament Full Tutorial | Laravel Filament Tutorial</a>
+Blogs app- <a href="https://youtu.be/yQFA-0RbjO0" target="_blank">Laravel Filament Full Tutorial | Laravel Filament Tutorial</a>
             <a href="https://youtu.be/bF04VPI68sg" target="_blank">Roles and permissions - Laravel Filament Roles and Permissions Full Tutorial</a>
 
+
+<h3>Admin Login Credentials</h3>
+
+Url- http://domain-name.com/admin
+Email- admin@admin.com
+Password- password
