@@ -13,10 +13,12 @@ class PostPolicy
      */
     public function viewAny(User $user)
     {
-        if($user->hasRole(['Admin', 'Writer', 'Moderator']) || $user->hasPermissionTo('Create Posts')) {
-            return true;
-        }
-        return false;
+        // if($user->hasRole(['Admin', 'Writer', 'Moderator']) || $user->hasPermissionTo('Create Posts')) {
+        //     return true;
+        // }
+        // return false;
+
+        return true;
 
     }
 
