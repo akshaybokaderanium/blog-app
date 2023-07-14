@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "644b5cf6c237fe2840641f1355ae12f9",
+    "content-hash": "44ebabf984d498f679fa6fbe9e9f6ec7",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -7045,78 +7045,6 @@
             "time": "2023-05-30T10:13:11+00:00"
         },
         {
-            "name": "visualbuilder/email-templates",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/Users/ranium/sites/email-templates",
-                "reference": "951734fe969f57d0b34e441cf956d717770d8272"
-            },
-            "require": {
-                "filament/filament": "^2.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "blade-ui-kit/blade-heroicons": "^1.4",
-                "orchestra/testbench": "^6.0",
-                "pestphp/pest": "^1.23",
-                "pestphp/pest-plugin-laravel": "^1.4",
-                "pestphp/pest-plugin-livewire": "^1.0",
-                "phpunit/phpunit": "^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Visualbuilder\\EmailTemplates\\EmailTemplatesServiceProvider"
-                    ],
-                    "aliases": {
-                        "EmailTemplates": "Visualbuilder\\EmailTemplates\\EmailTemplatesFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Visualbuilder\\EmailTemplates\\": "src",
-                    "Visualbuilder\\EmailTemplates\\Database\\Factories\\": "database/factories/",
-                    "Visualbuilder\\EmailTemplates\\Database\\Seeders\\": "database/seeders/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Visualbuilder\\EmailTemplates\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ]
-            },
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Visual Builder",
-                    "email": "support@ekouk.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Email Template editor for Filament",
-            "homepage": "https://github.com/visualbuilder/email-templates",
-            "keywords": [
-                "email-templates",
-                "visualbuilder"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "dev-master",
             "source": {
@@ -10212,9 +10140,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "visualbuilder/email-templates": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
